@@ -1,41 +1,41 @@
-# Linear Regression App
+# Aplicación de Regresión Lineal
 
-This project is a Streamlit application that implements a linear regression model. It allows users to upload CSV files containing data, which can then be used to train the model and make predictions.
+Este proyecto es una aplicación de Streamlit que implementa un modelo de regresión lineal. Permite a los usuarios subir archivos CSV con datos, que luego se pueden usar para entrenar el modelo y hacer predicciones.
 
-## Features
+## Características
 
-- Upload CSV files to input data.
-- Train a linear regression model on the uploaded data.
-- Make predictions based on the trained model.
-- Restore values from previously uploaded data.
+- Subir archivos CSV para ingresar datos.
+- Entrenar un modelo de regresión lineal con los datos subidos.
+- Hacer predicciones basadas en el modelo entrenado.
+- Restaurar valores de datos previamente subidos.
 
-## Project Structure
+## Estructura del Proyecto
 
-- `src/app.py`: Entry point of the application.
-- `src/models/linear_regression.py`: Contains the `LinearRegressionModel` class.
-- `src/utils/data_loader.py`: Function to load data from CSV files.
-- `src/utils/preprocessing.py`: Functions for data preprocessing.
-- `src/config/settings.py`: Configuration settings for the application.
-- `data/.gitkeep`: Keeps the data directory in version control.
-- `tests/test_model.py`: Unit tests for the linear regression model.
-- `requirements.txt`: Lists project dependencies.
+- `src/app.py`: Punto de entrada de la aplicación.
+- `src/models/linear_regression.py`: Contiene la clase `LinearRegressionModel`.
+- `src/utils/data_loader.py`: Función para cargar datos desde archivos CSV.
+- `src/utils/preprocessing.py`: Funciones para el preprocesamiento de datos.
+- `src/config/settings.py`: Configuraciones de la aplicación.
+- `data/.gitkeep`: Mantiene el directorio de datos en el control de versiones.
+- `tests/test_model.py`: Pruebas unitarias para el modelo de regresión lineal.
+- `requirements.txt`: Lista las dependencias del proyecto.
 
-## Requirements
+## Requisitos
 
-To run this application, you need to install the required dependencies. You can do this by running:
+Para ejecutar esta aplicación, necesitas instalar las dependencias requeridas. Puedes hacerlo ejecutando:
 
 ```
 pip install -r requirements.txt
 ```
 
-## Running the Application
+## Ejecutando la Aplicación
 
-To start the application, run the following command:
+Para iniciar la aplicación, ejecuta el siguiente comando:
 
 ```
 streamlit run src/app.py
 ```
 
-## License
+## Licencia
 
-This project is licensed under the MIT License.
+Este proyecto está licenciado bajo la Licencia MIT.
